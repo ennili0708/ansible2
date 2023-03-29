@@ -1,0 +1,9 @@
+#1- Execute k8s_master_init.yml
+     ansible-playbook k8s_containrd_pkg.yml -k -K
+
+#2- Execute k8s_master_init.yml
+    ansible-playbook k8s_master_init.yml -k -K
+
+
+#3- execute the yaml as follow:   
+    ansible-playbook k8s_workers.yml -k -K
